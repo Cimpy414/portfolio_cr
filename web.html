@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Cindy Rockel - Art Director & Digital Designer</title>
+  <meta name="title" content="Cindy Rockel - Art Director & Digital Designer">
+  <meta name="description" content="Portfolio Personal">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Engagement&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/web.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+-->
+  
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  
+
+  <video autoplay muted loop id="myVideo">
+    <source src="./assets/images/video-bg.mp4" type="video/mp4">
+  </video>
+
+</div>
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.svg" width="170" height="40" alt="Pfolio home">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="index.html#cv" class="navbar-link">Sobre mi</a>
+          </li>
+
+          <li>
+            <a href="index.html#service-label" class="navbar-link">Servicios</a>
+          </li>
+
+          <li>
+            <a href="index.html#portfolio-label" class="navbar-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="index.html#contacto" class="navbar-link">Contacto</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+    <!-- 
+    - #VIDEO
+    -->
+
+  <main>
+    <article>
+      
+
+      <!-- 
+        - #POrtfolio-Webdesign
+      -->
+      <section class="webdesign" aria-labelledby="about-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                Proyectos
+              </p>
+
+              <h2 class="h2 section-title" id="about">Web Design</h2>
+            </div>
+
+            <p class="section-text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+
+<section class="galeria">
+  <h2>Galeria</h2>
+  <div class="item">
+    <a href="#imagem1">
+      <img src="./assets/images/web1.jpg" alt="">
+    </a>
+    <strong>Encriptador de Texto</strong>
+    <p><a href="https://cimpy414.github.io/encriptador/">ver online</a></p>
+  </div>
+  <div class="item">
+    <a href="#imagem2">
+      <img src="./assets/images/web02.jpg" alt="">
+    </a>
+    <strong>Template en HTML-Portfolio</strong>
+  </div>
+  <div class="item">
+    <a href="#imagem3">
+      <img src="./assets/images/web03.jpg" alt="">
+    </a>
+    <strong>Template en HTML</strong>
+  </div>
+</section>
+
+<!-- Lightboxes em separado -->
+<div class="lightboxes">
+  <div class="lightbox" id="imagem1">
+    <a href="#" class="fechar">&times;</a>
+    <div class="contenido">
+      <img src="./assets/images/web1-big.jpg" alt="">
+      <p>Encriptador de Texto</p>
+    </div>
+  </div>
+  <div class="lightbox" id="imagem2">
+    <a href="#" class="fechar">&times;</a>
+    <div class="contenido">
+      <img src="./assets/images/web02_big1.jpg" alt="">
+      <p>Template en HTML-Portfolio</p>
+    </div>
+  </div>
+  <div class="lightbox" id="imagem3">
+    <a href="#" class="fechar">&times;</a>
+    <div class="contenido">
+      <img src="./assets/images/web03_big.jpg" alt="">
+      <p>Online Shop en Magento</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+    </div>
+</div>
+      </section>
+
+    </article>
+  </main>
+
+    <!-- 
+      - #FOOTER
+    -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Contacto</p>
+        </li>
+
+        <li>
+          <a href="mailto:cindypadilla@hotmail.de" class="footer-link">cindyemail@mail.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Locación</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Bogota - Colombia</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-dribbble"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-skype"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/autoplay-slider.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
